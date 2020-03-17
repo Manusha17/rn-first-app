@@ -10,7 +10,7 @@ const GoalInput = props => {
 
     return (
         <View style={styles.inputContainer}>
-            <TextInput placeholder="Enter Goal"
+            <TextInput placeholder="Enter To Do"
                 style={styles.input}
                 onChangeText={goalInputHandler}
                 value={enteredGoal}
